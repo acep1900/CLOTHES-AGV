@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.general {
+    margin: auto;
+    padding: auto;
+    width: auto;
+    display: table;
+    height: 100px;
+}
+.general_2 {
+    margin: 5px;
+    padding: 2px;
+    border: 1px;
+    width: auto;
+    height: 600px;
+    
+}
+.general_3 {
+    margin: auto;
+    padding: auto;
+    width: auto;
+    display: table;
+    height: 50px;}
+.contenedor_1{
+    width: 400px;
+    height: auto;
+    
+}
+.contenedor_2{
+    width: 600px;
+    height: auto;
+    display: table-cell;
+     
+}
+.contenedor_3{
+    width: 1000px;
+    height: 100%;
+    float: left;
+
+}
+.contenedor_4{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.contenedor_5{
+    width: 50%;
+    height: 100%;  
+    float: left;  
+}
+.contenedor_6{
+    width: 200px;
+    height: auto;
+    display: table-cell;}
