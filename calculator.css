@@ -1,0 +1,62 @@
+#exterior   {
+    border-style: double;
+    border-color: red;
+}
+
+#interior{
+    /*text-align: center;*/
+    border-style: dotted;
+    border-color: blueviolet;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+#caja{
+    height: 30px;
+    text-align: right;
+}
+.linea{
+    display: flex;
+	justify-content:space-between;
+    /*text-align: center;*/
+    border-style: dotted;
+    border-color: orange;
+    /*width: 140px;
+    /*height: 300px;*/
+    margin-top: 11px;
+    /*float: left;*/
+}
+.botones_numeros{
+    display: flex;
+	justify-content:space-between;
+    /*text-align: center;*/
+    border-style: dotted;
+    border-color: green;
+    width: 140px;
+    /*height: 300px;*/
+    /*margin-top: 15px;*/
+    float: left;
+}
+.botones_operacion{
+   display: flex;
+	justify-content:space-between;
+    text-align: center;
+   border-style: dotted;
+    border-color: green;
+    width: 40px;
+   /* height: 300px;*/
+   /*margin-top: 15px;*/
+    /*float: left;*/
+}
+form{
+    margin-top: 10px;
+    text-align: center;
+}
+.boton{
+    width: 41px;
+    height: 41px;
+}
+.boton_resultado{
+    width: 91px;
+    height: 41px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="exterior">
+        <div id="interior">
+            <form  action="">
+                <input id ="caja" type="text">
+            </form> 
+                <div class="linea">
+                    <div class="botones_numeros">
+                        <button id="seven" onclick="f_to_know_number(this.id)" class="boton">7</button>
+                        <button id="eigth" onclick="f_to_know_number(this.id)" class="boton">8</button>
+                        <button id="nine" onclick="f_to_know_number(this.id)" class="boton">9</button>
+                    </div>
+                    <div class="botones_operacion">
+                        <button id="sum" onclick="f_to_know_number(this.id)" class="boton">+</button>
+                    </div>
+                </div>
+                <div class="linea">
+                    <div class="botones_numeros">
+                        <button id="four" onclick="f_to_know_number(this.id)" class="boton">4</button>
+                        <button id="five" onclick="f_to_know_number(this.id)" class="boton">5</button>
+                        <button id="six" onclick="f_to_know_number(this.id)" class="boton">6</button>
+                    </div>
+                    <div class="botones_operacion">
+                        <button id="rest" onclick="f_to_know_number(this.id)" class="boton">-</button>
+                    </div>
+                </div>
+                <div class="linea">
+                    <div class="botones_numeros">
+                        <button id ="one" onclick="f_to_know_number(this.id)" class="boton">1</button>
+                        <button id ="two" onclick="f_to_know_number(this.id)" class="boton">2</button>
+                        <button id ="three" onclick="f_to_know_number(this.id)" class="boton">3</button>
+                    </div>
+                    <div class="botones_operacion">
+                        <button id="plus" onclick="f_to_know_number(this.id)" class="boton">*</button>
+                    </div>
+                </div>
+                <div class="linea">
+                    <div class="botones_numeros">
+                        <button id ="zero" onclick="f_to_know_number(this.id)" class="boton">0</button>
+                        <button id ="result" onclick="f_to_know_number(this.id)" class="boton_resultado">=</button>
+                    </div>
+                    <div class="botones_operacion">
+                        <button id="div" onclick="f_to_know_number(this.id)" class="boton">/</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
